@@ -80,7 +80,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MemProcFS\vmmsharp\vmmsharp.csproj">
+    <ProjectReference Include="..\MemProcFS\vmmsharp\vmmsharp\vmmsharp.csproj">
       <Project>{3cdf36dd-2b04-4876-b4bf-29fed2386e6a}</Project>
       <Name>vmmsharp</Name>
     </ProjectReference>

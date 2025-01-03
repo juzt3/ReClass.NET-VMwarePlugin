@@ -11,11 +11,11 @@ using ReClassNET.Debugger;
 using ReClassNET.Extensions;
 using ReClassNET.Memory;
 using ReClassNET.Plugins;
-using vmmsharp;
+using Vmmsharp;
 using System.Data;
 using System.Runtime.InteropServices;
 using ReClassNET.MemoryScanner;
-using static vmmsharp.Vmm;
+using static Vmmsharp.VmmProcess;
 using static System.Collections.Specialized.BitVector32;
 using ReClassNET.Forms;
 using ReClassNET;
@@ -64,7 +64,7 @@ namespace DMAPlugin
 
         private ProcessData[] processList;
 
-        private Vmm.MAP_MODULEENTRY[] mModule;
+        private ModuleEntry[] mModule;
 
         public override bool Initialize(IPluginHost host)
         {
@@ -92,16 +92,16 @@ namespace DMAPlugin
 
         private void FetchProcessListFromDMA()
         {
-            uint[] dwPidList = vmm.PidList();
-            processList = new ProcessData[dwPidList.Length];
+            VmmProcess[] processes = vmm.Processes;
+            processList = new ProcessData[processes.Length];
             int i = 0;
-            foreach (uint dwPid in dwPidList)
+            foreach (VmmProcess process in processes)
             {
-                Vmm.PROCESS_INFORMATION procInfo = vmm.ProcessGetInformation(dwPid);
+                VmmProcess.ProcessInfo? procInfo = process.Info;
                 ProcessData pd = new ProcessData();
-                pd.Id = procInfo.dwPID;
-                pd.Name = procInfo.szName;
-                pd.Path = procInfo.szNameLong;
+                pd.Id = procInfo.Value.dwPID;
+                pd.Name = procInfo.Value.sName;
+                pd.Path = procInfo.Value.sNameLong;
                 processList[i++] = pd;
                 
             }
@@ -140,20 +140,21 @@ namespace DMAPlugin
             {
                 return false;
             }
-            mModule = vmm.Map_GetModule( (uint)process, false);
+            VmmProcess proc = vmm.Process((uint)process);
+            mModule = proc.MapModule(false);
 
             if(mModule.Length == 0)
             {
                 return false;
             }
 
-            foreach (Vmm.MAP_MODULEENTRY module in mModule)
+            foreach (ModuleEntry module in mModule)
             {
                 var data = new EnumerateRemoteModuleData
                 {
                     BaseAddress = (IntPtr)module.vaBase,
                     Size = (IntPtr)module.cbImageSize,
-                    Path = module.wszFullName
+                    Path = module.sFullName
                 };
 
                 callbackModule(ref data);
@@ -163,7 +164,7 @@ namespace DMAPlugin
 
         }
 
-        private String VadMap_Protection(Vmm.MAP_VADENTRY pVad)
+        private String VadMap_Protection(VadEntry pVad)
         {
             char[] protection = new char[6];
             byte vh = (byte)(pVad.Protection >> 3);
@@ -193,9 +194,11 @@ namespace DMAPlugin
 
             EnumerateRemoteModules(process, callbackModule);
 
-            foreach (Vmm.MAP_MODULEENTRY module in mModule)
-            {     
-                Vmm.IMAGE_SECTION_HEADER[] SECTIONs = vmm.ProcessGetSections((uint)process, module.wszText);
+            VmmProcess proc = vmm.Process((uint)process);
+
+            foreach (ModuleEntry module in mModule)
+            {
+                IMAGE_SECTION_HEADER[] SECTIONs = proc.MapModuleSection(module.sText);
 
                 foreach (IMAGE_SECTION_HEADER SECTION in SECTIONs)
                 {
@@ -205,7 +208,7 @@ namespace DMAPlugin
                         Size = (IntPtr)SECTION.MiscPhysicalAddressOrVirtualSize,
                         Protection = SectionProtection.NoAccess,
                         Type = SectionType.Image,
-                        ModulePath = module.wszText,
+                        ModulePath = module.sFullName,
                         Name = SECTION.Name
                     };
                     SectionCharacteristics characteristics = (SectionCharacteristics)SECTION.Characteristics;
@@ -233,9 +236,9 @@ namespace DMAPlugin
                 }
             }
 
-            Vmm.MAP_VADENTRY[] mVad = vmm.Map_GetVad((uint)process);
+            VadEntry[] mVad = proc.MapVAD();
 
-            foreach (MAP_VADENTRY vad in mVad)
+            foreach (VadEntry vad in mVad)
             {
                 if (vad.CommitCharge <= 0)
                     continue;
@@ -323,7 +326,8 @@ namespace DMAPlugin
         {
             lock (sync)
             {
-                return vmm.ProcessGetInformation((uint)process).dwState != 0xFFFFFFFF;
+                VmmProcess proc = vmm.Process((uint)process);
+                return proc.Info.Value.dwState != 0xFFFFFFFF;
             }
         }
 
@@ -341,7 +345,8 @@ namespace DMAPlugin
 
         public bool ReadRemoteMemory(IntPtr process, IntPtr address, ref byte[] buffer, int offset, int size)
         {
-            byte[] memRead = vmm.MemRead((uint)process, (ulong)address, (uint)size, Vmm.FLAG_NOCACHE);
+            VmmProcess proc = vmm.Process((uint)process);
+            byte[] memRead = proc.MemRead((ulong)address, (uint)size, Vmm.FLAG_NOCACHE);
 
             if (memRead == null)
             {

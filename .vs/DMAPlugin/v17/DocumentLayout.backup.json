@@ -1,34 +1,28 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ReClass.NET-DMAPlugin\\",
+  "WorkspaceRootPath": "D:\\WorkSpace\\Projects\\ReClass.NET-DMAPlugin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1722F45C-392C-42F2-8D7C-A1F7E6678BE4}|DMAPlugin.csproj|D:\\ReClass.NET-DMAPlugin\\dmapluginext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1722F45C-392C-42F2-8D7C-A1F7E6678BE4}|DMAPlugin.csproj|d:\\workspace\\projects\\reclass.net-dmaplugin\\dmapluginext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1722F45C-392C-42F2-8D7C-A1F7E6678BE4}|DMAPlugin.csproj|solutionrelative:dmapluginext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFB8917D-E9B4-463F-A6E8-612C35728C78}|..\\ReClass.NET\\ReClass.NET\\ReClass.NET.csproj|d:\\reclass.net\\reclass.net\\forms\\aboutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{3CDF36DD-2B04-4876-B4BF-29FED2386E6A}|..\\MemProcFS\\vmmsharp\\vmmsharp\\vmmsharp.csproj|d:\\workspace\\projects\\memprocfs\\vmmsharp\\vmmsharp\\vmmsharp\\vmm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CDF36DD-2B04-4876-B4BF-29FED2386E6A}|..\\MemProcFS\\vmmsharp\\vmmsharp.csproj|d:\\memprocfs\\vmmsharp\\vmmsharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CDF36DD-2B04-4876-B4BF-29FED2386E6A}|..\\MemProcFS\\vmmsharp\\vmmsharp\\vmmsharp.csproj|d:\\workspace\\projects\\memprocfs\\vmmsharp\\vmmsharp\\vmmsharp\\vmmprocess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFB8917D-E9B4-463F-A6E8-612C35728C78}|..\\ReClass.NET\\ReClass.NET\\ReClass.NET.csproj|d:\\reclass.net\\reclass.net\\forms\\processbrowserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ReClass.NET\\ReClass.NET\\Forms\\ProcessBrowserForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFB8917D-E9B4-463F-A6E8-612C35728C78}|..\\ReClass.NET\\ReClass.NET\\ReClass.NET.csproj|d:\\reclass.net\\reclass.net\\forms\\processbrowserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\reclass.net\\reclass.net\\forms\\processbrowserform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFB8917D-E9B4-463F-A6E8-612C35728C78}|..\\ReClass.NET\\ReClass.NET\\ReClass.NET.csproj|d:\\reclass.net\\reclass.net\\core\\icoreprocessfunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ReClass.NET\\ReClass.NET\\Forms\\ProcessInfoForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFB8917D-E9B4-463F-A6E8-612C35728C78}|..\\ReClass.NET\\ReClass.NET\\ReClass.NET.csproj|d:\\reclass.net\\reclass.net\\core\\corefunctionsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFB8917D-E9B4-463F-A6E8-612C35728C78}|..\\ReClass.NET\\ReClass.NET\\ReClass.NET.csproj|d:\\reclass.net\\reclass.net\\forms\\processinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFB8917D-E9B4-463F-A6E8-612C35728C78}|..\\ReClass.NET\\ReClass.NET\\ReClass.NET.csproj|d:\\reclass.net\\reclass.net\\forms\\processinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d:\\reclass.net\\reclass.net\\forms\\processinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,66 +32,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AboutForm.cs [Design]",
-              "DocumentMoniker": "D:\\ReClass.NET\\ReClass.NET\\Forms\\AboutForm.cs",
-              "RelativeDocumentMoniker": "..\\ReClass.NET\\ReClass.NET\\Forms\\AboutForm.cs",
-              "ToolTip": "D:\\ReClass.NET\\ReClass.NET\\Forms\\AboutForm.cs [Design]",
-              "RelativeToolTip": "..\\ReClass.NET\\ReClass.NET\\Forms\\AboutForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T22:33:02.659Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "vmmsharp.cs",
-              "DocumentMoniker": "D:\\MemProcFS\\vmmsharp\\vmmsharp.cs",
-              "RelativeDocumentMoniker": "..\\MemProcFS\\vmmsharp\\vmmsharp.cs",
-              "ToolTip": "D:\\MemProcFS\\vmmsharp\\vmmsharp.cs",
-              "RelativeToolTip": "..\\MemProcFS\\vmmsharp\\vmmsharp.cs",
-              "ViewState": "AgIAAAMHAAAAAAAAAAAEwAYHAAAjAAAAAAAAAA==",
+              "Title": "VmmProcess.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Projects\\MemProcFS\\vmmsharp\\vmmsharp\\vmmsharp\\VmmProcess.cs",
+              "RelativeDocumentMoniker": "..\\MemProcFS\\vmmsharp\\vmmsharp\\vmmsharp\\VmmProcess.cs",
+              "ToolTip": "D:\\WorkSpace\\Projects\\MemProcFS\\vmmsharp\\vmmsharp\\vmmsharp\\VmmProcess.cs",
+              "RelativeToolTip": "..\\MemProcFS\\vmmsharp\\vmmsharp\\vmmsharp\\VmmProcess.cs",
+              "ViewState": "AgIAAK4AAAAAAAAAAAAYwLoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T06:10:59.562Z",
+              "WhenOpened": "2025-01-02T08:58:29.375Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ICoreProcessFunctions.cs",
-              "DocumentMoniker": "D:\\ReClass.NET\\ReClass.NET\\Core\\ICoreProcessFunctions.cs",
-              "RelativeDocumentMoniker": "..\\ReClass.NET\\ReClass.NET\\Core\\ICoreProcessFunctions.cs",
-              "ToolTip": "D:\\ReClass.NET\\ReClass.NET\\Core\\ICoreProcessFunctions.cs",
-              "RelativeToolTip": "..\\ReClass.NET\\ReClass.NET\\Core\\ICoreProcessFunctions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "Vmm.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Projects\\MemProcFS\\vmmsharp\\vmmsharp\\vmmsharp\\Vmm.cs",
+              "RelativeDocumentMoniker": "..\\MemProcFS\\vmmsharp\\vmmsharp\\vmmsharp\\Vmm.cs",
+              "ToolTip": "D:\\WorkSpace\\Projects\\MemProcFS\\vmmsharp\\vmmsharp\\vmmsharp\\Vmm.cs",
+              "RelativeToolTip": "..\\MemProcFS\\vmmsharp\\vmmsharp\\vmmsharp\\Vmm.cs",
+              "ViewState": "AgIAAKUBAAAAAAAAAAAUwLMBAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T04:43:00.278Z"
+              "WhenOpened": "2025-01-02T07:41:23.285Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CoreFunctionsManager.cs",
-              "DocumentMoniker": "D:\\ReClass.NET\\ReClass.NET\\Core\\CoreFunctionsManager.cs",
-              "RelativeDocumentMoniker": "..\\ReClass.NET\\ReClass.NET\\Core\\CoreFunctionsManager.cs",
-              "ToolTip": "D:\\ReClass.NET\\ReClass.NET\\Core\\CoreFunctionsManager.cs",
-              "RelativeToolTip": "..\\ReClass.NET\\ReClass.NET\\Core\\CoreFunctionsManager.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T04:42:57.049Z"
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "DMAPluginExt.cs",
-              "DocumentMoniker": "D:\\ReClass.NET-DMAPlugin\\DMAPluginExt.cs",
+              "DocumentMoniker": "D:\\WorkSpace\\Projects\\ReClass.NET-DMAPlugin\\DMAPluginExt.cs",
               "RelativeDocumentMoniker": "DMAPluginExt.cs",
-              "ToolTip": "D:\\ReClass.NET-DMAPlugin\\DMAPluginExt.cs",
+              "ToolTip": "D:\\WorkSpace\\Projects\\ReClass.NET-DMAPlugin\\DMAPluginExt.cs",
               "RelativeToolTip": "DMAPluginExt.cs",
-              "ViewState": "AgIAAOgAAAAAAAAAAAAUwAUBAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAIwF4BAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T16:18:26.813Z",
               "EditorCaption": ""
@@ -107,10 +84,9 @@
               "DocumentIndex": 3,
               "Title": "ProcessBrowserForm.cs",
               "DocumentMoniker": "D:\\ReClass.NET\\ReClass.NET\\Forms\\ProcessBrowserForm.cs",
-              "RelativeDocumentMoniker": "..\\ReClass.NET\\ReClass.NET\\Forms\\ProcessBrowserForm.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\ReClass.NET\\ReClass.NET\\Forms\\ProcessBrowserForm.cs",
               "ToolTip": "D:\\ReClass.NET\\ReClass.NET\\Forms\\ProcessBrowserForm.cs",
-              "RelativeToolTip": "..\\ReClass.NET\\ReClass.NET\\Forms\\ProcessBrowserForm.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAA6wA8AAAACAAAA",
+              "RelativeToolTip": "..\\..\\..\\ReClass.NET\\ReClass.NET\\Forms\\ProcessBrowserForm.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T17:06:33.177Z"
             },
@@ -119,34 +95,33 @@
               "DocumentIndex": 4,
               "Title": "ProcessBrowserForm.cs [Design]",
               "DocumentMoniker": "D:\\ReClass.NET\\ReClass.NET\\Forms\\ProcessBrowserForm.cs",
-              "RelativeDocumentMoniker": "..\\ReClass.NET\\ReClass.NET\\Forms\\ProcessBrowserForm.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\ReClass.NET\\ReClass.NET\\Forms\\ProcessBrowserForm.cs",
               "ToolTip": "D:\\ReClass.NET\\ReClass.NET\\Forms\\ProcessBrowserForm.cs [Design]",
-              "RelativeToolTip": "..\\ReClass.NET\\ReClass.NET\\Forms\\ProcessBrowserForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\ReClass.NET\\ReClass.NET\\Forms\\ProcessBrowserForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T17:06:31.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProcessInfoForm.cs",
+              "DocumentIndex": 6,
+              "Title": "ProcessInfoForm.cs [Design]",
               "DocumentMoniker": "D:\\ReClass.NET\\ReClass.NET\\Forms\\ProcessInfoForm.cs",
-              "RelativeDocumentMoniker": "..\\ReClass.NET\\ReClass.NET\\Forms\\ProcessInfoForm.cs",
-              "ToolTip": "D:\\ReClass.NET\\ReClass.NET\\Forms\\ProcessInfoForm.cs",
-              "RelativeToolTip": "..\\ReClass.NET\\ReClass.NET\\Forms\\ProcessInfoForm.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAowFwAAAApAAAA",
+              "RelativeDocumentMoniker": "..\\..\\..\\ReClass.NET\\ReClass.NET\\Forms\\ProcessInfoForm.cs",
+              "ToolTip": "D:\\ReClass.NET\\ReClass.NET\\Forms\\ProcessInfoForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\ReClass.NET\\ReClass.NET\\Forms\\ProcessInfoForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T17:06:10.638Z"
+              "WhenOpened": "2024-06-24T17:06:05.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProcessInfoForm.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "ProcessInfoForm.cs",
               "DocumentMoniker": "D:\\ReClass.NET\\ReClass.NET\\Forms\\ProcessInfoForm.cs",
-              "RelativeDocumentMoniker": "..\\ReClass.NET\\ReClass.NET\\Forms\\ProcessInfoForm.cs",
-              "ToolTip": "D:\\ReClass.NET\\ReClass.NET\\Forms\\ProcessInfoForm.cs [Design]",
-              "RelativeToolTip": "..\\ReClass.NET\\ReClass.NET\\Forms\\ProcessInfoForm.cs [Design]",
+              "RelativeDocumentMoniker": "..\\..\\..\\ReClass.NET\\ReClass.NET\\Forms\\ProcessInfoForm.cs",
+              "ToolTip": "D:\\ReClass.NET\\ReClass.NET\\Forms\\ProcessInfoForm.cs",
+              "RelativeToolTip": "..\\..\\..\\ReClass.NET\\ReClass.NET\\Forms\\ProcessInfoForm.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T17:06:05.069Z"
+              "WhenOpened": "2024-06-24T17:06:10.638Z"
             }
           ]
         }
