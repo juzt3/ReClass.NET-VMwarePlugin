@@ -72,9 +72,9 @@ namespace DMAPlugin
 
             this.host = host ?? throw new ArgumentNullException(nameof(host));
 
-            host.Process.CoreFunctions.RegisterFunctions("DMA", this);
+            host.Process.CoreFunctions.RegisterFunctions("VMware", this);
 
-            vmm = new Vmm("", "-device","fpga");
+            vmm = new Vmm("", "-device","vmware");
 
             procBrowser = new ProcessBrowserForm(Program.Settings.LastProcess);
 
